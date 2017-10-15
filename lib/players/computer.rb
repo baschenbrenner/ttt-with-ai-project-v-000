@@ -11,14 +11,13 @@ module Players
         return "5"
       elsif array[0]==' '
         return 1
-      elsif about_to_win?
+      elsif 2>1
         if (array[0]=='X' && array[3]=='X' && array[6]==' ')
           return 7
         elsif (array[0]=='X' && array[6]=='X' && array[3]==' ')
           return 4
         elsif (array[6]=='X' && array[3]=='X' && array[0]==' ')
           return 1
-          
         end
       elsif array[1]==' '
         return 2
