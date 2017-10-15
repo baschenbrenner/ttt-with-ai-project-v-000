@@ -11,7 +11,9 @@ class Game
 
   end
 
-
+  def win_combos
+    WIN_COMBINATIONS
+  end
   def board
     @board
   end

@@ -9,8 +9,19 @@ module Players
     def move(array)
       if array[4]==' '
         return "5"
-      elsif array[0]==' ' 
+      elsif array[0]==' '
         return 1
+      elsif about_to_win?
+        if (array[0]=='X' && array[3]=='X' && array[6]==' ')
+          return 7
+        elsif (array[0]=='X' && array[6]=='X' && array[3]==' ')
+          return 4
+        elsif (array[6]=='X' && array[3]=='X' && array[0]==' ')
+          return 1
+        elsif condition
+        elsif condition
+            
+        end
       elsif array[1]==' '
         return 2
       elsif array[2]==' '
