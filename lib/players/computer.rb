@@ -18,9 +18,7 @@ module Players
           return 4
         elsif (array[6]=='X' && array[3]=='X' && array[0]==' ')
           return 1
-        elsif condition
-        elsif condition
-            
+          
         end
       elsif array[1]==' '
         return 2
